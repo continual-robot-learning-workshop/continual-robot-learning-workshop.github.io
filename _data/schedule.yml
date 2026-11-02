@@ -1,0 +1,36 @@
+# Full-day program, rendered on /program/. Times are local conference time.
+# `speakers` refers to a group key in _data/speakers.yml; its people are listed under the session.
+
+- time: "08:30–08:45"
+  title: Welcome and introduction
+  details: The two tracks and the shared research questions.
+- time: "08:45–10:15"
+  title: "Track 1 invited talks: adapting pretrained general-purpose policies"
+  speakers: track1
+- time: "10:15–10:45"
+  title: Coffee break and posters
+  break: true
+- time: "10:45–11:15"
+  title: Bridging talk
+  speakers: bridging
+- time: "11:15–12:00"
+  title: Contributed spotlight talks
+  details: Up to nine spotlights, five minutes each.
+- time: "12:00–12:30"
+  title: Poster session
+  details: Up to 30 posters.
+- time: "12:30–14:00"
+  title: Lunch
+  break: true
+- time: "14:00–15:30"
+  title: "Track 2 invited talks: continual learning from experience"
+  speakers: track2
+- time: "15:30–16:00"
+  title: Coffee break and posters
+  break: true
+- time: "16:00–17:45"
+  title: Deployment cases and panel discussion
+  details: Four panelists present real-world deployment cases, followed by two organizer-moderated discussion rounds with the audience.
+  speakers: panel
+- time: "17:45–18:00"
+  title: Synthesis, Best Poster Award, and closing

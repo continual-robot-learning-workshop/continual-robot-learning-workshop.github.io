@@ -1,0 +1,53 @@
+# Organizing committee and advisory board, rendered on /organizers/.
+# Optional per person:
+#   url:   personal or lab homepage
+#   image: filename in assets/img/organizers/ (roughly square, ~500px); omit to show initials instead
+
+committee:
+  - name: José-Luis Holgado-Álvarez
+    affiliation: JMU Würzburg
+    image: jose-luis_holgado-alvarez.jpg
+  - name: Anthony Liang
+    affiliation: Toyota Research Institute
+    image: anthony_liang.jpg
+  - name: Chanmi Lee
+    affiliation: KAIST
+    image: chanmi_lee.jpg
+  - name: Mikel Malagón
+    affiliation: UPV/EHU
+    image: mikel_malagon.jpg
+  - name: Ahmed Hendawy
+    affiliation: TU Darmstadt
+    image: ahmed_hendawy.jpg
+  - name: Jinzhou Li
+    affiliation: Duke University
+    image: jinzhou_li.jpg
+  - name: Kelin Yu
+    affiliation: University of Maryland
+    image: kelin_yu.jpg
+  - name: Yunhai Han
+    affiliation: Georgia Tech
+    image: yunhai_han.jpg
+  - name: Alexandra Forsey-Smerek
+    affiliation: MIT
+    image: alexandra_forsey-smerek.jpg
+  - name: Sriyash Poddar
+    affiliation: University of Washington
+
+advisory:
+  - name: Aykut Onol
+    affiliation: Toyota Research Institute
+  - name: Carlo D'Eramo
+    affiliation: JMU Würzburg
+  - name: Esraa Elelimy
+    affiliation: University of Alberta
+  - name: Sung-Eui Yoon
+    affiliation: KAIST
+  - name: Mengdi Xu
+    affiliation: Tsinghua University
+  - name: Jan Peters
+    affiliation: TU Darmstadt
+  - name: Yiting Chen
+    affiliation: Rice University
+  - name: Qianzhong Chen
+    affiliation: Stanford University

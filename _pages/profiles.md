@@ -3,7 +3,7 @@ layout: profiles
 permalink: /people/
 title: people
 description: members of the lab or group
-nav: true
+nav: false # al-folio demo page, hidden from the workshop site
 nav_order: 7
 
 profiles:

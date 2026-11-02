@@ -1,0 +1,58 @@
+# Invited speakers and panelists, rendered on /speakers/ and in the program.
+# Optional per person:
+#   url:   personal or lab homepage
+#   image: filename in assets/img/speakers/ (roughly square, ~500px); omit to show no photo
+#   tbc:   true marks the person as "to be confirmed" on the site
+
+track1:
+  title: "Track 1: Adapting Pretrained General-Purpose Policies"
+  people:
+    - name: Shuran Song
+      affiliation: Stanford University
+      image: shuran_song.jpg
+    - name: Andreea Bobu
+      affiliation: MIT
+      image: andreea_bobu.jpg
+    - name: Abhishek Gupta
+      affiliation: University of Washington
+      image: abhishek_gupta.jpg
+
+bridging:
+  title: "Bridging Talk"
+  people:
+    - name: Georgia Chalvatzaki
+      affiliation: TU Darmstadt
+      image: georgia_chalvatzaki.jpg
+      topic: Mobile manipulation
+
+track2:
+  title: "Track 2: Continual Learning from Experience"
+  people:
+    - name: Lukas Rosenberger Schmid
+      affiliation: TU Nuremberg
+      image: lukas_rosenberger_schmid.jpg
+    - name: Hae-Won Park
+      affiliation: KAIST
+      image: hae-won_park.jpg
+    - name: Sorina Lupu
+      affiliation: NASA JPL
+      image: sorina_lupu.jpg
+
+panel:
+  title: "Deployment Cases & Panel Discussion"
+  people:
+    - name: Pascal Klink
+      affiliation: Amazon Robotics
+      image: pascal_klink.jpg
+      tbc: true
+    - name: Aykut Onol
+      affiliation: Toyota Research Institute
+      image: aykut_onol.jpg
+      tbc: true
+    - name: Abrar Anwar
+      affiliation: NVIDIA
+      image: abrar_anwar.jpg
+      tbc: true
+    - name: Nico Bohlinger
+      affiliation: # TODO: add affiliation
+      image: nico_bohlinger.jpg

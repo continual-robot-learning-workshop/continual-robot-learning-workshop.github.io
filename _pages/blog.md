@@ -2,7 +2,7 @@
 layout: default
 permalink: /blog/
 title: blog
-nav: true
+nav: false # al-folio demo page, hidden from the workshop site
 nav_order: 1
 pagination:
   enabled: true

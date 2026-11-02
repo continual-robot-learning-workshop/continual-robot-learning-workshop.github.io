@@ -1,0 +1,23 @@
+# Workshop facts shared across pages. Replace "TBA" values as they are fixed.
+
+venue: ICRA 2027, Seoul, South Korea
+date: TBA
+format: Full day, in person
+submission_url: # OpenReview link, once the venue is open
+
+important_dates:
+  - event: Call for papers opens
+    date: TBA
+  - event: Submission deadline
+    date: TBA
+  - event: Notification of acceptance
+    date: TBA (at least six weeks before the conference)
+  - event: Camera-ready deadline
+    date: TBA
+  - event: Workshop
+    date: TBA
+
+# Newest first. `text` may contain Markdown.
+news:
+  - date: 2026-11
+    text: Workshop website is live. The call for papers will open soon.

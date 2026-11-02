@@ -1,34 +1,64 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  <b>Continual Robot Learning After Deployment</b><br>
+  ICRA 2027 Workshop &middot; Seoul, South Korea &middot; Full day, in person
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true # contact icons from _data/socials.yml
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false # news is rendered from _data/workshop.yml below
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Recent advances in learning-based robot control have expanded the range of tasks robots can perform. Reliable long-term deployment, however,
+requires robots to **continually adapt to changing conditions while retaining existing capabilities**. Recent work on continual manipulation,
+locomotion, and autonomous navigation shows progress toward this goal, yet continual robot learning in the real world may still require
+rethinking some long-standing assumptions in our field.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+This workshop brings together researchers who **adapt pretrained policies** and researchers who study **continual learning from robot
+interaction**, to identify shared challenges and evaluation priorities. The workshop is endorsed by the **IEEE RAS Technical Committee on
+Robot Learning**.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## Two complementary tracks
+
+**Track 1: Adapting pretrained general-purpose policies.** Post-training from demonstrations, corrections, preferences, rewards, and
+rollouts, including adaptation through parameters, context, memory, retrieval, and reusable skill acquisition.
+
+**Track 2: Continual learning from experience.** Continuously learning from robot interaction without requiring a pretrained policy, with a
+focus on knowledge acquisition and adaptation under limited interaction, computational resources, and safety constraints.
+
+Submissions may address either track or both. The two tracks share one review process, the poster sessions, and the discussion.
+
+## Shared research questions
+
+1. When should a robot learn, which components should change, and what feedback should guide the update?
+2. How do prior training and experience shape a robot's ability to acquire and reuse knowledge efficiently while retaining competence and
+   plasticity under limited interaction, computation, and memory?
+3. How should learning be monitored and evaluated across successive updates, and what evidence justifies safe continued deployment or
+   recovery?
+
+The discussions will feed into a **shared research agenda** of priorities and practical guidelines for designing and evaluating continually
+learning robots, published by the organizers after the workshop.
+
+## Important dates
+
+| Event | Date |
+| :---- | :--- |
+{% for d in site.data.workshop.important_dates -%}
+| {{ d.event }} | {{ d.date }} |
+{% endfor %}
+
+See the [call for papers]({{ '/call-for-papers/' | relative_url }}) for submission details and the [program]({{ '/program/' | relative_url }})
+for the full-day schedule.
+
+## News
+
+{% for item in site.data.workshop.news %}
+- **{{ item.date }}**: {{ item.text }}
+{% endfor %}
