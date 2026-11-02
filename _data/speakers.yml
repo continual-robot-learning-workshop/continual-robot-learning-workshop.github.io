@@ -44,15 +44,12 @@ panel:
     - name: Pascal Klink
       affiliation: Amazon Robotics
       image: pascal_klink.jpg
-      tbc: true
     - name: Aykut Onol
       affiliation: Toyota Research Institute
       image: aykut_onol.jpg
-      tbc: true
     - name: Abrar Anwar
       affiliation: NVIDIA
       image: abrar_anwar.jpg
-      tbc: true
     - name: Nico Bohlinger
-      affiliation: # TODO: add affiliation
+      affiliation: TU Darmstadt & Amazon FAR
       image: nico_bohlinger.jpg
