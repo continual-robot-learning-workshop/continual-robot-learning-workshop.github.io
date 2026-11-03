@@ -14,7 +14,9 @@ latest_posts:
 ---
 
 <style>
-  .workshop-logo { width: 100%; max-width: 260px; border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25); }
+  .post-header .post-title { font-size: clamp(2.4rem, 6vw, 3.8rem); font-weight: 400; line-height: 1.15; }
+  .hero-caption b { font-size: 1.35rem; }
+  .workshop-logo { width: 100%; max-width: 260px; }
   .hero-text { display: flex; flex-direction: column; justify-content: center; }
   .hero-caption { font-size: 1.15rem; }
   .logo-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 0.5rem 0 1.5rem; }
@@ -28,7 +30,7 @@ latest_posts:
 
 <div class="row mb-4">
   <div class="col-sm-4 text-center mb-4">
-    <img src="{{ '/assets/img/logos/workshop_logo.jpg' | relative_url }}" alt="Learning to Infinity and Beyond workshop logo" class="workshop-logo">
+    <img src="{{ '/assets/img/logos/workshop_logo.png' | relative_url }}" alt="Learning to Infinity and Beyond workshop logo" class="workshop-logo">
   </div>
   <div class="col-sm-8 hero-text">
     <p class="hero-caption">
