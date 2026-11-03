@@ -5,30 +5,39 @@
 
 committee:
   - name: José-Luis Holgado-Álvarez
+    url: https://www.caidas.uni-wuerzburg.de/rlcdm/team/jose-luis-holgado-alvarez/
     affiliation: JMU Würzburg
     image: jose-luis_holgado-alvarez.jpg
   - name: Anthony Liang
+    url: https://aliang8.github.io/
     affiliation: Toyota Research Institute
     image: anthony_liang.jpg
   - name: Chanmi Lee
+    url: https://chan-mi-lee.github.io/
     affiliation: KAIST
     image: chanmi_lee.jpg
   - name: Mikel Malagón
+    url: https://mikelma.srht.site/
     affiliation: UPV/EHU
     image: mikel_malagon.jpg
   - name: Jinzhou Li
+    url: https://kingchou007.github.io/
     affiliation: Duke University
     image: jinzhou_li.jpg
   - name: Kelin Yu
+    url: https://colinyu1.github.io/
     affiliation: University of Maryland
     image: kelin_yu.jpg
   - name: Yunhai Han
+    url: https://y8han.github.io/
     affiliation: Georgia Tech
     image: yunhai_han.jpg
   - name: Alexandra Forsey-Smerek
+    url: https://www.csail.mit.edu/person/alexandra-forsey-smerek
     affiliation: MIT
     image: alexandra_forsey-smerek.jpg
   - name: Sriyash Poddar
+    url: https://sriya.sh/
     affiliation: University of Washington
     image: sriyash_poddar.jpg
 

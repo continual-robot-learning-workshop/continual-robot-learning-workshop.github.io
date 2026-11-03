@@ -9,6 +9,8 @@ _styles: >
   .person-photo { width: 130px; height: 130px; object-fit: cover; object-position: center 30%; }
   .person-initials { width: 130px; height: 130px; display: inline-flex; align-items: center; justify-content: center;
   font-size: 2.2rem; color: var(--global-text-color-light); background: var(--global-divider-color); }
+  .person-link { font-size: 0.85rem; overflow-wrap: anywhere; }
+  .person-link a::after { display: none; }
 ---
 
 ## Organizing committee
@@ -24,6 +26,10 @@ _styles: >
     {%- endif %}
     <div><strong>{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</strong></div>
     <div>{{ p.affiliation }}</div>
+    {%- if p.url %}
+    {%- assign host = p.url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | split: '/' | first %}
+    <div class="person-link"><a href="{{ p.url }}"><i class="fa-solid fa-link"></i> {{ host }}</a></div>
+    {%- endif %}
   </div>
 {%- endfor %}
 </div>
@@ -49,6 +55,10 @@ the organizing committee.
     {%- endif %}
     <div><strong>{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</strong></div>
     <div>{{ p.affiliation }}</div>
+    {%- if p.url %}
+    {%- assign host = p.url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | split: '/' | first %}
+    <div class="person-link"><a href="{{ p.url }}"><i class="fa-solid fa-link"></i> {{ host }}</a></div>
+    {%- endif %}
   </div>
 {%- endfor %}
 </div>
