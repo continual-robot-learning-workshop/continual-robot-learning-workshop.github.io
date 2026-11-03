@@ -41,7 +41,6 @@ submission link will be posted here when the call opens.{% endif %}
 
 - **Length:** up to eight pages, including references.
 - **Archival status:** non-archival.
-- **Review:** reviews and acceptance decisions will be released at least six weeks before the conference.
 
 ## Inclusion
 

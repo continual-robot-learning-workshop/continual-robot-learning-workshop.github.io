@@ -2,7 +2,7 @@
 layout: page
 title: program
 permalink: /program/
-description: Full-day, in-person program. Workshop date and room to be announced.
+description: Full-day, in-person program on May 24 or 28, 2027. Room to be announced.
 nav: true
 nav_order: 2
 ---

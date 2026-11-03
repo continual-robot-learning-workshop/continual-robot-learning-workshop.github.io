@@ -1,0 +1,45 @@
+# Logos shown on the home page. `logo` is a filename in assets/img/logos/.
+
+# Shown next to the workshop logo at the top of the home page.
+conference:
+  - name: ICRA
+    logo: icra.png
+    url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+  - name: ICRA 2027 Seoul
+    logo: icra2027.png
+    url: https://2027.ieee-icra.org/
+
+endorsement:
+  - name: IEEE RAS Technical Committee on Robot Learning
+    logo: ras_tc_robot_learning.png
+    url: https://www.ieee-ras.org/robot-learning
+
+# Organizer affiliations and supporting organizations.
+supporters:
+  - name: Toyota Research Institute
+    logo: tri.png
+    url: https://www.tri.global/
+  - name: Julius-Maximilians-Universität Würzburg
+    logo: jmu_wuerzburg.png
+    url: https://www.uni-wuerzburg.de/
+  - name: KAIST
+    logo: kaist.png
+    url: https://www.kaist.ac.kr/
+  - name: University of the Basque Country (UPV/EHU)
+    logo: upv_ehu.png
+    url: https://www.ehu.eus/
+  - name: Duke University
+    logo: duke.png
+    url: https://duke.edu/
+  - name: University of Maryland
+    logo: umd.png
+    url: https://umd.edu/
+  - name: Georgia Tech
+    logo: georgia_tech.png
+    url: https://www.gatech.edu/
+  - name: MIT
+    logo: mit.png
+    url: https://www.mit.edu/
+  - name: University of Washington
+    logo: uw.png
+    url: https://www.washington.edu/

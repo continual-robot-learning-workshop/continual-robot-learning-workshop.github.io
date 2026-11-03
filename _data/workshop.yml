@@ -1,21 +1,17 @@
 # Workshop facts shared across pages. Replace "TBA" values as they are fixed.
 
-venue: ICRA 2027, Seoul, South Korea
-date: TBA
+venue: COEX, Seoul, South Korea
+date: May 24 or 28, 2027
 format: Full day, in person
 submission_url: # OpenReview link, once the venue is open
 
 important_dates:
-  - event: Call for papers opens
-    date: TBA
-  - event: Submission deadline
-    date: TBA
+  - event: Paper submission deadline
+    date: March 31, 2027 (23:59 Anywhere on Earth)
   - event: Notification of acceptance
-    date: TBA (at least six weeks before the conference)
-  - event: Camera-ready deadline
-    date: TBA
+    date: April 24, 2027
   - event: Workshop
-    date: TBA
+    date: May 24 or 28, 2027
 
 # Newest first. `text` may contain Markdown.
 news:

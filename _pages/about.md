@@ -2,9 +2,6 @@
 layout: about
 title: home
 permalink: /
-subtitle: >
-  <b>Continual Robot Learning After Deployment</b><br>
-  ICRA 2027 Workshop &middot; Seoul, South Korea &middot; Full day, in person
 
 selected_papers: false
 social: true # contact icons from _data/socials.yml
@@ -15,6 +12,38 @@ announcements:
 latest_posts:
   enabled: false
 ---
+
+<style>
+  .workshop-logo { width: 100%; max-width: 260px; border-radius: 12px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25); }
+  .hero-text { display: flex; flex-direction: column; justify-content: center; }
+  .hero-caption { font-size: 1.15rem; }
+  .logo-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 0.5rem 0 1.5rem; }
+  .logo-tile { display: inline-flex; align-items: center; justify-content: center; height: 76px; padding: 10px 16px;
+    background: #fff; border: 1px solid var(--global-divider-color); border-radius: 8px; }
+  .logo-tile img { max-height: 56px; max-width: 190px; width: auto; }
+  .logo-tile.large { height: 104px; }
+  .logo-tile.large img { max-height: 84px; }
+  .logo-row a::after { display: none; }
+</style>
+
+<div class="row mb-4">
+  <div class="col-sm-4 text-center mb-4">
+    <img src="{{ '/assets/img/logos/workshop_logo.jpg' | relative_url }}" alt="Learning to Infinity and Beyond workshop logo" class="workshop-logo">
+  </div>
+  <div class="col-sm-8 hero-text">
+    <p class="hero-caption">
+      <b>Continual Robot Learning After Deployment</b><br>
+      ICRA 2027 Workshop &middot; {{ site.data.workshop.date }}<br>
+      {{ site.data.workshop.venue }} &middot; {{ site.data.workshop.format }}
+    </p>
+    <p>Endorsed by the <b>IEEE RAS Technical Committee on Robot Learning</b>.</p>
+    <div class="logo-row">
+    {%- for l in site.data.supporters.conference %}
+      <a class="logo-tile large" href="{{ l.url }}" title="{{ l.name }}"><img src="{{ l.logo | prepend: '/assets/img/logos/' | relative_url }}" alt="{{ l.name }} logo"></a>
+    {%- endfor %}
+    </div>
+  </div>
+</div>
 
 Recent advances in learning-based robot control have expanded the range of tasks robots can perform. Reliable long-term deployment, however,
 requires robots to **continually adapt to changing conditions while retaining existing capabilities**. Recent work on continual manipulation,
@@ -62,3 +91,21 @@ for the full-day schedule.
 {% for item in site.data.workshop.news %}
 - **{{ item.date }}**: {{ item.text }}
 {% endfor %}
+
+## Supporters
+
+**Endorsed by**
+
+<div class="logo-row">
+{%- for l in site.data.supporters.endorsement %}
+  <a class="logo-tile large" href="{{ l.url }}" title="{{ l.name }}"><img src="{{ l.logo | prepend: '/assets/img/logos/' | relative_url }}" alt="{{ l.name }} logo"></a>
+{%- endfor %}
+</div>
+
+**Supporting institutions**
+
+<div class="logo-row">
+{%- for l in site.data.supporters.supporters %}
+  <a class="logo-tile" href="{{ l.url }}" title="{{ l.name }}"><img src="{{ l.logo | prepend: '/assets/img/logos/' | relative_url }}" alt="{{ l.name }} logo"></a>
+{%- endfor %}
+</div>
