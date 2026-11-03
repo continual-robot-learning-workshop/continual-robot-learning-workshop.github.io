@@ -32,6 +32,17 @@ committee:
     affiliation: University of Washington
     image: sriyash_poddar.jpg
 
+# Prior event organization by committee members. `events` may contain Markdown.
+experience:
+  - name: Anthony Liang
+    events: co-organized *Human-in-the-Loop Robot Learning* (RSS 2025) and *Structured Physical Intelligence* (CoRL 2026).
+  - name: Jinzhou Li
+    events: co-organized *Manipulation Robustness* (ICRA 2026).
+  - name: Yunhai Han
+    events: co-organized *Bimanual Dexterous Tool Use* (CoRL 2026).
+  - name: José-Luis Holgado-Álvarez
+    events: organized reinforcement learning and robotics discussion groups (ELLIS Symposium 2023).
+
 advisory:
   - name: Aykut Onol
     affiliation: Toyota Research Institute

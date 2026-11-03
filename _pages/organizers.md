@@ -28,6 +28,14 @@ _styles: >
 {%- endfor %}
 </div>
 
+## Organizing experience
+
+Members of the organizing committee bring experience from related workshops and community events:
+
+{% for e in site.data.organizers.experience -%}
+- **{{ e.name }}** {{ e.events }}
+{% endfor %}
+
 ## Advisory board
 
 The advisory board advises on speakers, review criteria, and the research agenda. Operational responsibility for the workshop remains with
