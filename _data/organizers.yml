@@ -16,9 +16,6 @@ committee:
   - name: Mikel Malagón
     affiliation: UPV/EHU
     image: mikel_malagon.jpg
-  - name: Ahmed Hendawy
-    affiliation: TU Darmstadt
-    image: ahmed_hendawy.jpg
   - name: Jinzhou Li
     affiliation: Duke University
     image: jinzhou_li.jpg
@@ -33,6 +30,7 @@ committee:
     image: alexandra_forsey-smerek.jpg
   - name: Sriyash Poddar
     affiliation: University of Washington
+    image: sriyash_poddar.jpg
 
 advisory:
   - name: Aykut Onol
@@ -51,3 +49,5 @@ advisory:
     affiliation: Rice University
   - name: Qianzhong Chen
     affiliation: Stanford University
+  - name: Ahmed Hendawy
+    affiliation: TU Darmstadt
